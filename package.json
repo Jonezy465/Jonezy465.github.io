@@ -1,0 +1,8 @@
+{
+  "name": "nathan-jones-portfolio",
+  "version": "1.0.0",
+  "description": "Website to advertise Nathan Jones as a web developer",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  }
