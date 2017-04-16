@@ -38,7 +38,7 @@ export default class Work extends Component {
 	render() {
 		return (
 			<Element name='MyWork' className='MyWork'>
-				<Parallax bgImage="images/sunrise.jpg" strength={this.state.strength} className='parallax'>
+				<Parallax bgImage="build/images/sunrise.jpg" strength={this.state.strength} className='parallax'>
 					<ReactCSSTransitionGroup className='fader'
 						transitionName="fade"
 						transitionEnterTimeout={500}

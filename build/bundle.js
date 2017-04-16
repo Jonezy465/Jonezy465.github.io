@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "12387e3462a628c47538"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "f674e385e8a09c72f56d"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -43659,7 +43659,7 @@
 					{ name: 'MyWork', className: 'MyWork' },
 					_react2.default.createElement(
 						_reactParallax.Parallax,
-						{ bgImage: 'images/sunrise.jpg', strength: this.state.strength, className: 'parallax' },
+						{ bgImage: 'build/images/sunrise.jpg', strength: this.state.strength, className: 'parallax' },
 						_react2.default.createElement(
 							_reactAddonsCssTransitionGroup2.default,
 							{ className: 'fader',
@@ -49037,7 +49037,7 @@
 							_react2.default.createElement(
 								_reactBootstrap.Col,
 								{ xs: 12, md: 4, className: 'contact-item' },
-								_react2.default.createElement('img', { src: '../../images/Mobile.png' }),
+								_react2.default.createElement('img', { src: '../../build/images/Mobile.png' }),
 								_react2.default.createElement(
 									'span',
 									{ className: 'text' },
@@ -49047,7 +49047,7 @@
 							_react2.default.createElement(
 								_reactBootstrap.Col,
 								{ xs: 12, md: 4, className: 'contact-item' },
-								_react2.default.createElement('img', { src: '../../images/Email.png' }),
+								_react2.default.createElement('img', { src: '../../build/images/Email.png' }),
 								_react2.default.createElement(
 									'a',
 									{ href: 'mailto:nmjones@live.com', className: 'text' },
@@ -49057,7 +49057,7 @@
 							_react2.default.createElement(
 								_reactBootstrap.Col,
 								{ xs: 12, md: 4, className: 'contact-item' },
-								_react2.default.createElement('img', { src: '../../images/GitHub-Mark-64px.png' }),
+								_react2.default.createElement('img', { src: '../../build/images/GitHub-Mark-64px.png' }),
 								_react2.default.createElement(
 									'a',
 									{ href: 'https://github.com/NathanJonesDevelopment', className: 'text' },
