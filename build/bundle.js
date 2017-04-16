@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "abe623e44719a372e1dd"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "a0be4952a07adfc06a21"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -43460,7 +43460,7 @@
 						_react2.default.createElement(
 							'p',
 							null,
-							'I am a Web and Mobile Developer based on the south side of Brisbane, specializing in front-end development. I started learning web dvelopment in 2008, which eventually lead to a Diploma. I provide clean web designs with high performance, and I\'m always following the latest development and technology trends.'
+							'I am a Web and Mobile Developer based on the south side of Brisbane, specializing in front-end development. I started learning web development in 2008, which eventually lead to a Diploma. I provide clean web designs with high performance, and I\'m always following the latest development and technology trends.'
 						)
 					),
 					_react2.default.createElement(

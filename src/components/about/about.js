@@ -12,7 +12,7 @@ export default class About extends Component {
 					<h1>About Me</h1>
 					<p>
 						I am a Web and Mobile Developer based on the south side of Brisbane, specializing in front-end development. 
-						I started learning web dvelopment in 2008, which eventually lead to a Diploma. 
+						I started learning web development in 2008, which eventually lead to a Diploma. 
 						I provide clean web designs with high performance, and I'm always following the latest development and technology trends.
 					</p>
 				</div>
