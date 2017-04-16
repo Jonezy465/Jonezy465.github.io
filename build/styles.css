@@ -6755,26 +6755,6 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
-@font-face {
-  font-family: Delicious;
-  src: url(/fonts/Delicious-Roman.otf); }
-
-@font-face {
-  font-family: Delicious;
-  font-weight: bold;
-  src: url(/fonts/Delicious-Bold.otf); }
-
-@font-face {
-  font-family: Delicious;
-  font-style: italic;
-  src: url(/fonts/Delicious-Italic.otf); }
-
-@font-face {
-  font-family: Delicious;
-  font-weight: bold;
-  font-style: italic;
-  src: url(/fonts/Delicious-BoldItalic.otf); }
-
 * {
   margin: 0px;
   padding: 0px;
@@ -6783,7 +6763,7 @@ button.close {
 html, body {
   height: 100%;
   width: 100%;
-  font-family: 'Days One', Helvetica, Arial, sans-serif; }
+  font-family: 'Alegreya Sans', Helvetica, Arial, sans-serif; }
 
 .viewPort {
   width: 100%;

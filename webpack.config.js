@@ -55,10 +55,6 @@ module.exports = {
 				loader: 'file-loader?name=fonts/[name].[ext]'
 			},
 			{
-				test: /\.php$/,
-				loader: 'file-loader?name=[name].[ext]'
-			},
-			{
 				test: /\.(png|jpg|jpeg|gif)$/,
 				loader: 'url-loader'
 			}
