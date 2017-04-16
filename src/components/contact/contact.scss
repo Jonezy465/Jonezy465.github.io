@@ -1,0 +1,27 @@
+.Contact {
+	height: 60vh;
+	color: #484848;
+	text-align: center;
+	h1 {
+		padding: 4%;
+		margin-top: 5%;
+	}
+	.contact-item {
+		margin-top: 5%;
+		img {
+			width: 4vw;
+			height: 4vw;
+			@media (max-width: 768px) {
+				width: 7vw;
+				height: 7vw;
+			}
+		}
+		.text {
+			padding: 2%;
+			font-size: calc(8px + 0.5vw);
+			@media (max-width: 767px) {
+				font-size: calc(6px + 1vh);
+			}
+		}
+	}
+}

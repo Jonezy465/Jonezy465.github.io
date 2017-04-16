@@ -1,0 +1,109 @@
+.About {
+	background-color: #272727;
+	.aboutMe {
+		height: 30%;
+		background-color: #ddd;
+		color: #222;
+		padding: 2% 10%;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;	
+		h1 {
+			font-size: calc(10 + 0.5vw);
+			font-weight: bold;
+			padding: 0% 0% 2vw 0%;
+			@media screen and (max-width: 767px) {
+				font-size: calc(20px + 1.5vh);
+			}
+		}
+		p {
+			font-size: calc(18px + 0.5vw);
+			@media screen and (max-width: 767px) {
+				font-size: calc(14px + 1vh);
+			}
+			margin-bottom: 10px;
+		}
+	}
+	.skills {
+		height: 70%;
+		background-color: #272727;
+		padding: 1.5%;
+		color: #fff;
+		h1 {
+			padding: 3%;
+			margin: 0px;
+			font-size: calc(14 + 0.5vw);
+			@media screen and (max-width: 767px) {
+				font-size: calc(28px + 1.5vh);
+			}
+			text-align: center;
+		}
+		p {
+			text-align: center;
+		}
+		.container {
+			width: 100%;
+			padding: 0px;
+			padding: 0% 0%;
+			.row {
+				margin: 0px;
+				width: 100%;
+			}
+		}
+	}
+}
+
+.skill {
+	font-size: calc(16px + 0.5vw);
+	padding: 0% 5%;
+	@media screen and (max-width: 767px) {
+		font-size: calc(18px + 1vh);
+		padding: 3% 5%;
+	}
+	.title {
+		text-align: center;
+		text-decoration: underline;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 10vh;
+		padding: 15%;
+		.icon {
+			float: left;
+			width: 4vw;
+			height: 4vw;
+			@media screen and (max-width: 1023px) {
+				height: 6vw;
+				width: 6vw;
+			}
+			@media screen and (max-width: 767px) {
+				height: 9vw;
+				width: 9vw;
+			}
+			$skills: Client, Server, Mobile;
+			@each $skill in $skills {
+				&.#{$skill} {
+					background-image: url('../../assets/images/#{$skill}.png');
+					background-size: 100% 100%;
+				}
+			}
+		}
+		.text {
+			float: left;
+			display: flex;
+			align-items: center;
+			padding: 5%;
+			font-size: calc(16px + 0.5vw);
+			@media screen and (max-width: 767px) {
+				font-size: calc(16px + 1vh);
+			}
+		}
+	}
+	p {
+		font-size: calc(14px + 0.5vw);
+		@media screen and (max-width: 767px) {
+			font-size: calc(14px + 1vh);
+		}
+	}
+}

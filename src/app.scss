@@ -1,0 +1,39 @@
+@font-face { 
+	font-family: Delicious;
+	src: url('assets/fonts/delicious/Delicious-Roman.otf');
+}
+@font-face {
+	font-family: Delicious;
+	font-weight: bold;
+	src: url('assets/fonts/delicious/Delicious-Bold.otf');
+}
+@font-face {
+	font-family: Delicious;
+	font-style: italic;
+	src: url('assets/fonts/delicious/Delicious-Italic.otf');
+}
+@font-face {
+	font-family: Delicious;
+	font-weight: bold;
+	font-style: italic;
+	src: url('assets/fonts/delicious/Delicious-BoldItalic.otf');
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+html, body {
+	height: 100%;
+	width: 100%;
+	font-family: Delicious, Helvetica, Arial, sans-serif;
+}
+
+.viewPort {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+}

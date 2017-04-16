@@ -1,0 +1,109 @@
+.MyWork {
+	height: 65%;
+	.parallax {
+		height: 100%;
+		width: 100%;
+	}
+	.react-parallax-content {
+		height: 100%;
+	}
+	.workSlider {
+		h1 {
+			width: 30%;
+			min-width: 200px;
+			text-align: center;
+			align-self: flex-start;
+			color: #fff;
+			margin: 30vh auto 3% auto;
+			padding: 1%;
+			font-size: calc(20px + 0.5vw);
+			background-color: rgba(0,0,0,0.3);
+			@media screen and (max-width: 767px) {
+				font-size: calc(18px + 1vh);
+				margin-bottom: 15%;
+				margin: -10vh auto 3% auto;
+			}
+		}
+		.container {
+			padding: 0px 5%;
+			width: 90vw;
+			height: 40vw;
+			@media screen and (max-width: 767px) {
+				height: 30vw;
+				width: 80vw;
+			}
+		}
+		.slideContent {
+			border: solid 1px #fff;
+			background-color: #272727;
+			height: 18vw;
+			width: 18vw;
+			margin: auto;
+			background-size: 100% 100%;
+			@media (max-width: 767px) {
+				height: 35vw;
+				width: 40vw;
+			}
+			&.portfolio {
+				background-image: url('../../assets/images/portfolio.jpg');
+				p {
+					margin-top: 10%;
+				}
+			}
+			&.checkers {
+				background-image: url('../../assets/images/checkers.jpg');
+				p {
+					@media (max-width: 1023px) {
+						margin: 2% 0px;
+					}
+				}
+			}
+			&.react-redux-utilities {
+				background-image: url('../../assets/images/react-redux-utilities.jpg');
+			}
+			.hoverText {
+				padding: 10% 2%;
+				height: 100%;
+				background-color: rgba(0,0,0,0.85);
+				opacity: 0;
+				@media (max-width: 1024px) {
+					opacity: 1;
+				}
+				&:hover {
+					opacity: 1;
+				}
+			}
+			p {
+				text-align: center;
+				color: #fff;
+				font-size: calc(7.5px + 0.5vw);
+				
+			}
+		}
+	}
+}
+
+.fader {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.fade-enter {
+  opacity: 0;
+  margin-top: 3%;
+}
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  margin-top: 0px;
+  transition: all 500ms ease-in-out;
+}
+.fade-leave {
+  opacity: 1;
+  margin-top: 0px;
+}
+.fade-leave.fade-leave-active {
+  opacity: 0;
+  margin-top: 3%;
+  transition: all 500ms ease-in-out;
+}
